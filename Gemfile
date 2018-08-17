@@ -64,3 +64,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'materialize-sass'
 gem 'devise', '~> 4.2'
 gem 'toastr-rails'
+gem 'dotenv-rails', '~> 2.1', '>=2.1.2'
