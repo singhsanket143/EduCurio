@@ -29,6 +29,7 @@
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v5.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v5.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v5.2.1, RVM: ruby-2.4.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_admin-sortable_tree (v2.0.0, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="active_material (v1.4.1@40f80e, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeadmin (v1.3.1, RVM: ruby-2.4.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v5.2.1, RVM: ruby-2.4.0) [gem]" level="application" />

@@ -8,4 +8,8 @@ class Project < ApplicationRecord
 
   mount_uploader :image, ProjectImageUploader
 
+  def shortname
+    name.length > 25 ? name[0..25] + "..." : name
+  end
+
 end
