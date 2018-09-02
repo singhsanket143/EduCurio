@@ -65,3 +65,8 @@ gem 'materialize-sass'
 gem 'devise', '~> 4.2'
 gem 'toastr-rails'
 gem 'dotenv-rails', '~> 2.1', '>=2.1.2'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+group :development, :test do
+  gem 'railroady'
+end
