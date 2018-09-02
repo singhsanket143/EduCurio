@@ -72,6 +72,7 @@ gem 'active_material', github: 'vigetlabs/active_material'
 gem 'carrierwave', '~> 1.0'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
+gem 'friendly_id', '~> 5.1'
 group :development, :test do
   gem 'railroady'
 end

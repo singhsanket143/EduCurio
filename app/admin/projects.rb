@@ -2,6 +2,11 @@ ActiveAdmin.register Project do
 
   permit_params :name, :content, :price, :image
 
+  controller do
+    def find_resource
+      scoped_collection.friendly.find(params[:id])
+    end
+  end
   show do |t|
     attributes_table do
       row :name

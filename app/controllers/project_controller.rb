@@ -4,7 +4,7 @@ class ProjectController < ApplicationController
   end
 
   def show
-    @project = Project.find(params[:id])
+    @project = Project.friendly.find(params[:id])
     @tasks = @project.tasks
 
   end

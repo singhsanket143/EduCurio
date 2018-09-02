@@ -1,4 +1,6 @@
 class Project < ApplicationRecord
+  extend FriendlyId
+  friendly_id :name, use: [:slugged, :finders]
   has_many :tasks
   validates :name, presence: true, length: {maximum: 50}
   validates :content, presence: true, length: {maximum: 5000}
