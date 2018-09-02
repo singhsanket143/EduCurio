@@ -67,6 +67,7 @@ gem 'toastr-rails'
 gem 'dotenv-rails', '~> 2.1', '>=2.1.2'
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
+gem 'activeadmin'
 group :development, :test do
   gem 'railroady'
 end
