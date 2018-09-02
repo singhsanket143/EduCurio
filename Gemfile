@@ -68,7 +68,8 @@ gem 'dotenv-rails', '~> 2.1', '>=2.1.2'
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
 gem 'activeadmin'
-gem 'active_admin_flat_skin'
+gem 'active_material', github: 'vigetlabs/active_material'
+gem 'carrierwave', '~> 1.0'
 group :development, :test do
   gem 'railroady'
 end
